@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BUILDBIZ</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <header class="menu">
+            <div class="menu__container">
+                <div class="menu__logo"><a href="/">BUILDBIZ</a></div>
+                <nav class="menu__nav">
+                    <ul>
+                        <li><a class="menu__link active" href="#">HOME</a></li>
+                        <li><a class="menu__link" href="#">ABOUT US</a></li>
+                        <li><a class="menu__link" href="#">CAREERS</a></li>
+                    </ul>
+                </nav>
+                <div class="menu__ham">
+                    <span></span><span></span><span></span>
+                </div>
+                <div class="menu__offscreen">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="#">CAREERS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main__container">
+                <h1 class="main__hero">We build the future</h1>
+                <h3 class="main__secondary">
+                    Your trusted partner in quality construction
+                </h3>
+                <div class="main__text">
+                    <img src="./images/tick.svg" alt="" />
+                    <p>
+                        <span class="main__text--big">500+</span>successful
+                        projects
+                    </p>
+                </div>
+                <div class="main__text">
+                    <img src="./images/tick.svg" alt="" />
+                    <p>
+                        <span class="main__text--big">98%</span>client
+                        satisfaction
+                    </p>
+                </div>
+                <div class="main__text">
+                    <img src="./images/tick.svg" alt="" />
+                    <p>
+                        <span class="main__text--big">20+</span>years of
+                        experience
+                    </p>
+                </div>
+                <button class="main__button">ORDER</button>
+            </div>
+            <img src="./images/main.png" alt="" class="main__image" />
+        </main>
+        <section class="info">
+            <div class="info__imgcontainer">
+                <img class="info__image" src="./images/section1-1.png" alt="" />
+            </div>
+            <div class="info__container">
+                <div class="info__textblock">
+                    <img class="info__icon" src="./images/Exclude.svg" alt="" />
+                    <p class="info__text">
+                        We craft dream homes with precision—tailored designs,
+                        premium materials, and flawless execution.
+                    </p>
+                </div>
+                <div class="info__textblock">
+                    <img class="info__icon" src="./images/Exclude.svg" alt="" />
+                    <p class="info__text">
+                        Smart, efficient buildings for businesses. Offices,
+                        shops, and warehouses built for productivity.
+                    </p>
+                </div>
+                <div class="info__textblock">
+                    <img class="info__icon" src="./images/Exclude.svg" alt="" />
+                    <p class="info__text">
+                        Breathe new life into your space. Kitchen remodels, room
+                        additions, and full renovations.
+                    </p>
+                </div>
+                <div class="info__textblock">
+                    <img class="info__icon" src="./images/Exclude.svg" alt="" />
+                    <p class="info__text">
+                        Eco-friendly builds with energy-saving designs.
+                        Sustainable without compromise.
+                    </p>
+                </div>
+                <button class="info__button">ORDER</button>
+            </div>
+            <div class="info__imgcontainer">
+                <img class="info__image" src="./images/section1-2.png" alt="" />
+            </div>
+        </section>
+        <section class="form">
+            <div class="form__container">
+                <form
+                    action="/submit"
+                    method="POST"
+                    class="form__inner-container"
+                >
+                    <h2 class="form__heading">Contact Us Today</h2>
+                    <input
+                        class="form__input"
+                        name="name"
+                        type="text"
+                        placeholder="Name"
+                    /><input
+                        class="form__input"
+                        name="email"
+                        type="email"
+                        placeholder="E-mail"
+                    />
+                    <p class="form__privacy">
+                        <input type="checkbox" name="accept_privacy" /><span
+                            >I accept Privacy policy</span
+                        >
+                    </p>
+                    <button type="submit" class="form__button">
+                        SUBMIT FORM
+                    </button>
+                </form>
+                <img class="form__woman" src="./images/woman.png" alt="" />
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__top">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">CAREERS</a></li>
+                </ul>
+            </div>
+            <div class="footer__bottom">
+                <h2 class="footer__heading footer__left">
+                    <a href="/">BUILDBIZ</a>
+                </h2>
+                <div class="footer__socials">
+                    <a href="#"><img src="./images/instagram.svg" alt="" /></a
+                    ><a href="#"><img src="./images/tiktok.svg" alt="" /></a
+                    ><a href="#"><img src="./images/linkedin.svg" alt="" /></a
+                    ><a href="#"><img src="./images/facebook.svg" alt="" /></a
+                    ><a href="#"><img src="./images/telegram.svg" alt="" /></a
+                    ><a href="#"><img src="./images/youtube.svg" alt="" /></a>
+                </div>
+                <button class="footer__button footer__right">ORDER</button
+                ><span class="footer__copyright footer__left"
+                    >© 2024, Copyright.</span
+                ><a href="#" class="footer__link">Privacy policy</a
+                ><a href="#" class="footer__link footer__right">Terms of Use</a>
+            </div>
+        </footer>
+        <script src="./script.js"></script>
+    </body>
+</html>
